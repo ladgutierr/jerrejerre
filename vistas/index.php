@@ -8,21 +8,20 @@
 <script src="../js/myjava.js"></script>
 </head>
 <body>
-<div>
+<div id="box_1">
    <h1>GEMA SAS</h1>
     <section>
+        <br>
+        <h2>Formulario de Carga de información </h2>
         <form id="subida">
-        <table>
-        	<tr>
-            	<td><input type="file" id="csv" name="csv" /></td>
-            </tr>
-            <tr>
-            	<td><input type="submit" value="Enviar Formulario"/></td>
-            </tr>
-            <tr>
-            	<td id="respuesta"></td>
-            </tr>
-        </table>
+            <div id="div_file">
+                <p id="cargar">Cargar</p>
+            	<input type="file" id="csv" name="csv" />
+            </div>
+            	<input type="submit" value="Enviar Formulario"/>
+                <td id="respuesta"></td>
+            	
+        
         </form>
     </section>
 </div>

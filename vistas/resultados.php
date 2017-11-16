@@ -6,22 +6,39 @@
 <link href="../css/estilo.css" rel="stylesheet">
 <script src="../js/jquery.js"></script>
 <script src="../js/myjava.js"></script>
+
 </head>
 <body>
-<div>
+
+
+
+  <div id="box_1" class="resize">
    <h1>GEMA SAS</h1>
-    
+    <section>
+        <br>
+        <h2>Información </h2>
         <form id="subida">
-        <table  >
-          <th>nombre</th>
-          <tr><td>Art&iacute;culo</td><td>Cantidad</td></tr>
-          <tr><td>Zapatillas</td><td>1.500</td></tr>
-          <tr><td>Gorras</td><td>12.200</td></tr>
-          <tr><td>Pantalones</td><td>3.800</td></tr>
-          <tr><td>Camisetas</td><td>7.100</td></tr>
-    </table>
+        <div class="resize">
+          <table>
+            <th>Usuarios Activos</th>
+            
+          </table>
+        </div>
+        <div class="resize">
+          <table>
+            <th>Usuarios Inactivos</th>
+            
+          </table>
+        </div>
+        <div class="resize">
+          <table>
+            <th>Usuarios en espera</th>
+          </table>
+        </div>
+
+
+
+        
         </form>
-    
+    </section>
 </div>
-</body>
-</html>
